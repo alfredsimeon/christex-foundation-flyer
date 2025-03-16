@@ -1,0 +1,90 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: url('images.jpg') no-repeat center center fixed; /* Use local image */
+  background-size: cover; /* Cover the entire background */
+  color: #e0e0e0; /* Light text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Flyer Container */
+.flyer {
+  background: rgba(30, 30, 30, 0.8); /* Darker flyer background with transparency */
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Header Section */
+.header h1 {
+  font-family: 'Montserrat', sans-serif; /* Beautiful font for the title */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ffcc00; /* Gold color for the title */
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #b0b0b0; /* Lighter gray for subtitle */
+}
+
+/* Main Content Section */
+.content h2 {
+  font-family: 'Montserrat', sans-serif; /* Beautiful font for the heading */
+  font-size: 2rem;
+  margin: 20px 0;
+  color: #ffcc00; /* Gold color for the heading */
+}
+
+.content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #e0e0e0; /* Light text color */
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ff6f61; /* Button color */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ff3b2f; /* Darker button color on hover */
+}
+
+/* Footer Section */
+.footer {
+  margin-top: 20px;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #e0e0e0; /* Light text color */
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #ffcc00; /* Gold color for social links */
+}
